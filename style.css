@@ -1,7 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+} /* Seleciona todos os elementos da página. */
+
 body{
     background-color: black;
     color: white;
-}
+} /* Seleciona o body do html. */
 
 h1{
     font-family: 'Arial';
@@ -10,13 +15,13 @@ h1{
 .titulo-destaque{
     color: #FC8621;
     font-family: 'Arial';
-}
+} /* Seleciona a classe titulo-destaque, definida no html. */
 
 p{
     font-family:'Arial';
-}
+} /* Seleciona o parágrafo do html. */
 
 img{
     width: 280px;
     height: 300px;
-}
+}/* Seleciona a imagem do html. */

@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-family: 'Arial';
+}
+
+strong{
+    color: #22D4FD;
+    font-family: 'Arial';
+}
+
+p{
+    font-family:'Arial';
+}
+
+img{
+    width: 280px;
+    height: 300px;
+}

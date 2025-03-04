@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-} /* Seleciona todos os elementos da página. */
+} /* Seleciona todos os elementos da página. Essa parte do código limpa todos os padrões dos navegadores. */
 
 body{
+    height: 100vh; /* vh é viewport height, ou seja, 100% da altura da tela. */
+    box-sizing: border-box; /* Faz com que o padding e a borda não aumentem o tamanho do elemento. */
     background-color: black;
     color: white;
 } /* Seleciona o body do html. */
@@ -12,11 +14,6 @@ h1{
     font-family: 'Arial';
 }
 
-.titulo-destaque{
-    color: #FC8621;
-    font-family: 'Arial';
-} /* Seleciona a classe titulo-destaque, definida no html. */
-
 p{
     font-family:'Arial';
 } /* Seleciona o parágrafo do html. */
@@ -24,4 +21,15 @@ p{
 img{
     width: 280px;
     height: 300px;
+    border-radius: 10%;
 }/* Seleciona a imagem do html. */
+
+.titulo-destaque{
+    color: #FC8621;
+    font-family: 'Arial';
+} /* Seleciona a classe titulo-destaque, definida no html. */
+
+.apresentacao {
+    display: flex; /* Faz com que os elementos fiquem um ao lado do outro. */
+    align-items: center;
+}

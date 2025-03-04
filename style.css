@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,12 +12,14 @@ body{
     color: white;
 } /* Seleciona o body do html. */
 
-h1{
-    font-family: 'Arial';
-}
+.apresentacao__conteudo__titulo{
+    font-family: 'Krona One', sans-serif;
+    font-size: 36px;
+} /* Seleciona o título do html. */
 
-p{
-    font-family:'Arial';
+.apresentacao__conteudo__texto{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
 } /* Seleciona o parágrafo do html. */
 
 img{
@@ -26,10 +30,16 @@ img{
 
 .titulo-destaque{
     color: #FC8621;
-    font-family: 'Arial';
+    font-family: 'Krona One', sans-serif;
 } /* Seleciona a classe titulo-destaque, definida no html. */
 
 .apresentacao {
-    display: flex; /* Faz com que os elementos fiquem um ao lado do outro. */
+    margin: 10%;
+    display: flex;
     align-items: center;
+    justify-content: space-between; /* Faz com que os elementos fiquem um de cada lado. */
+}
+
+.apresentacao__conteudo{
+    width: 615px;
 }

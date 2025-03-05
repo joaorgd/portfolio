@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+/* Importa as fontes do Google Fonts. */
 
 *{
     margin: 0;
@@ -41,5 +42,22 @@ img{
 }
 
 .apresentacao__conteudo{
-    width: 615px;
+    width: 615px; /* Largura do conteúdo. */
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link{
+    background-color: #22D4FD; /* Cor de fundo do botão. */
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    padding: 21.5px 0px; /* Espaçamento interno do botão. */
+    text-decoration: none; /* Remove o sublinhado do link. */
+    color: #000000;
 }

@@ -24,8 +24,8 @@ body{
 } /* Seleciona o parágrafo do html. */
 
 img{
-    width: 280px;
-    height: 300px;
+    width: 450px;
+    height: 500px;
     border-radius: 10%;
 }/* Seleciona a imagem do html. */
 
@@ -35,14 +35,17 @@ img{
 } /* Seleciona a classe titulo-destaque, definida no html. */
 
 .apresentacao {
-    margin: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Faz com que os elementos fiquem um de cada lado. */
+    margin: 10% 15%; /* Margem de 10% em cima e embaixo e 15% nos lados. */
+    display: flex; /* Torna o layout responsivo. */
+    align-items: center; /* Controla o alinhamento vertical dos itens dentro do contêiner */
+    justify-content: space-between; /* Controla o alinhamento horizontal dos itens dentro do contêiner. */
 }
 
 .apresentacao__conteudo{
     width: 615px; /* Largura do conteúdo. */
+    display: flex; 
+    flex-direction: column; /* Faz com que os elementos fiquem um embaixo do outro. */
+    gap: 40px; /* Espaçamento entre os elementos. */
 }
 
 .apresentacao__links{

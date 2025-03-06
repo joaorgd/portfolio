@@ -30,7 +30,7 @@ img{
 }/* Seleciona a imagem do html. */
 
 .titulo-destaque{
-    color: #FC8621;
+    color: #22D4FD;
     font-family: 'Krona One', sans-serif;
 } /* Seleciona a classe titulo-destaque, definida no html. */
 
@@ -63,8 +63,8 @@ img{
 }
 
 .apresentacao__links__link{
-    /* background-color: #FC8621; Cor de fundo do botão. */
-    border: 2px solid #FC8621; /* Borda do botão. */
+    /* background-color: #22D4FD; Cor de fundo do botão. */
+    border: 2px solid #22D4FD; /* Borda do botão. */
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -73,4 +73,9 @@ img{
     font-size: 24px;
     padding: 21.5px 0px; /* Espaçamento interno do botão. */
     text-decoration: none; /* Remove o sublinhado do link. */
+}
+
+.apresentacao__links__link__icone {
+    width: 24px;
+    height: 24px;
 }

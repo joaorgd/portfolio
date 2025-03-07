@@ -64,6 +64,9 @@ img{
 
 .apresentacao__links__link{
     /* background-color: #22D4FD; Cor de fundo do botão. */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #22D4FD; /* Borda do botão. */
     width: 378px;
     text-align: center;

@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap');
 
 :root {
-    --cor-primaria: #000000;
+    --cor-primaria: #0B192C;
     --cor-secundaria: #F6F6F6;
     --cor-terciaria: #22D4FD;
-}
+    --cor-hover-link: #03346E;
+    --cor-hover-menu: #6EACDA;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+} /* O comando root é utilizado na criação de variáveis, sempre seguindo essa estrutura. Tudo que está no root, está no escopo global. */
 
 /* Reset padrão */
 * {
@@ -14,9 +19,9 @@
 }
 
 body {
-    background-color: black;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
 }
 
 .cabecalho{
@@ -29,22 +34,22 @@ body {
 }
 
 .cabecalho__menu__link{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 20px;
     font-weight: 600;
-    color:#22D4FD;
+    color:var(--cor-terciaria);
     text-decoration: none;
 }
 
 /* Título e texto */
 .apresentacao__conteudo__titulo {
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-primaria);
     font-size: 28px;
 }
 
 .titulo-destaque {
-    color: #22D4FD;
-    font-family: 'Krona One', sans-serif;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
 }
 
 .apresentacao__conteudo__texto {
@@ -89,7 +94,7 @@ img {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-terciaria);
     max-width: 300px;
     width: 100%;
     border-radius: 8px;
@@ -102,9 +107,12 @@ img {
 
 /* Hover no botão */
 .apresentacao__links__link:hover {
-    background-color: #272727;
-    color: #22D4FD;
-    border-color: #ffffff;
+    background-color: var(--cor-hover-link);    
+    border-color: var(--cor-secundaria);
+}
+
+.cabecalho__menu__link:hover {
+    color: var(--cor-hover-menu);
 }
 
 /* Ícone do botão */
@@ -115,8 +123,8 @@ img {
 
 /* Rodapé */
 .rodape {
-    color: black;
-    background-color: #22D4FD;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
     padding: 15px;
     text-align: center;
     font-size: 1rem;

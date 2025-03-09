@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap');
 
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+}
+
 /* Reset padrão */
 * {
     margin: 0;
@@ -24,7 +30,7 @@ body {
 
 .cabecalho__menu__link{
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     color:#22D4FD;
     text-decoration: none;

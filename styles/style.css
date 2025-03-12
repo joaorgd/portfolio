@@ -177,5 +177,6 @@ img {
 
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5%;
     }
 }
